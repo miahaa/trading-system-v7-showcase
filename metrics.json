@@ -1,0 +1,80 @@
+{
+  "version": "7.0",
+  "scope": "Inherited baseline reproduced within causal-calendar research; not a new strategy result",
+  "annual_runs_independent": true,
+  "rows": [
+    {
+      "year": 2024,
+      "start": "2024-01-03",
+      "end": "2024-12-31",
+      "scenario": "declared_costs",
+      "net_usd": -1597.88,
+      "max_drawdown_usd": 2264.68,
+      "trade_count": 93,
+      "label": "2024 | Declared",
+      "test_type": "Historical causal-calendar research replay of inherited baseline"
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-03",
+      "end": "2024-12-31",
+      "scenario": "cost_stress",
+      "net_usd": -1777.88,
+      "max_drawdown_usd": 2432.68,
+      "trade_count": 93,
+      "label": "2024 | Stress",
+      "test_type": "Historical causal-calendar research replay of inherited baseline"
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-02",
+      "end": "2025-12-31",
+      "scenario": "declared_costs",
+      "net_usd": -71.08,
+      "max_drawdown_usd": 1581.44,
+      "trade_count": 128,
+      "label": "2025 | Declared",
+      "test_type": "Historical causal-calendar research replay of inherited baseline"
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-02",
+      "end": "2025-12-31",
+      "scenario": "cost_stress",
+      "net_usd": -633.48,
+      "max_drawdown_usd": 1633.44,
+      "trade_count": 128,
+      "label": "2025 | Stress",
+      "test_type": "Historical causal-calendar research replay of inherited baseline"
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-02",
+      "end": "2026-10-01",
+      "scenario": "declared_costs",
+      "net_usd": 12143.66,
+      "max_drawdown_usd": 1934,
+      "trade_count": 53,
+      "label": "2026 | Declared",
+      "test_type": "Historical causal-calendar research replay of inherited baseline"
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-02",
+      "end": "2026-10-01",
+      "scenario": "cost_stress",
+      "net_usd": 11980.66,
+      "max_drawdown_usd": 1969,
+      "trade_count": 53,
+      "label": "2026 | Stress",
+      "test_type": "Historical causal-calendar research replay of inherited baseline"
+    }
+  ],
+  "live_results_published": false,
+  "win_rate_published": false,
+  "profit_factor_published": false,
+  "equity_curve_published": false,
+  "verification": "Preserved annual summary and calendar-impact figures agree; no fresh replay performed",
+  "drawdown_definition": "Prior end-of-day equity peak minus adverse intraday marked equity; maximum over each independent replay",
+  "methodology": "See README.md for costs and limitations"
+}
